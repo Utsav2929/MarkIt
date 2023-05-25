@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:textColor="#EEEEEE"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_home"
+        android:textColor="#EEEEEE"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/nav_se"
+        android:title="Show Employee's" />
+    <item
+        android:id="@+id/nav_pm"
+        android:title="Pay Money" />
+
+    <item
+        android:id="@+id/nav_ma"
+        android:title="Mark Attendence" />
+
+    <item
+        android:id="@+id/nav_an"
+        android:title="Add Notification" />
+    <item
+        android:id="@+id/nav_sn"
+        android:title="Notification's" />
+    <item
+        android:id="@+id/nav_a_d"
+        android:title="Attendence Details" />
+    <item
+        android:id="@+id/nav_md"
+        android:title="Money Details" />
+    <item
+        android:id="@+id/nav_re"
+        android:title="Register Employee" />
+
+    <item
+        android:id="@+id/nav_admin"
+        android:title="Admin Login" />
+
+    <item
+        android:id="@+id/nav_setting"
+        android:title="Settings" />
+
+    <item android:title="Profile">
+
+        <menu>
+            <item
+                android:id="@+id/nav_aboutyou"
+                android:title="Profile" />
+
+            <item
+                android:id="@+id/nav_logout"
+                android:title="Logout" />
+
+        </menu>
+
+    </item>
+
+    <item android:title="Communicate">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_share"
+                android:title="Share" />
+
+            <item
+                android:id="@+id/nav_rate_us"
+                android:title="Rate us" />
+
+
+        </menu>
+
+
+    </item>
+    <item android:title="About App">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_ad"
+                android:title="About Developer" />
+
+            <item
+                android:id="@+id/nav_cu"
+                android:title="Contact Us" />
+
+
+        </menu>
+
+
+    </item>
+
+</menu>

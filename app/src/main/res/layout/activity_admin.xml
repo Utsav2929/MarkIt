@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222831"
+    tools:context=".admin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="177dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130sp"
+            android:background="#000000"
+            android:backgroundTint="#222831"
+            android:fontFamily="cursive"
+            android:rotationX="25"
+            android:text="Mark It"
+            android:textColor="#EEEEEE"
+            android:textSize="34sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toTopOf="@+id/userli"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/userli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="100sp"
+            android:layout_marginBottom="168dp"
+            android:backgroundTint="#00FFF5"
+            android:text="Registered User's"
+            app:cornerRadius="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/userratings"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100sp"
+            android:backgroundTint="#00FFF5"
+            android:text="Ratings "
+            app:cornerRadius="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/userli"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.527"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
