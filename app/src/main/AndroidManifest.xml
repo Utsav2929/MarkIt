@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.markit">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Markit">
+        <activity
+            android:name=".employeelogin"
+            android:exported="false" />
+        <activity
+            android:name=".formoney"
+            android:exported="false" />
+        <activity
+            android:name=".addnotification"
+            android:exported="false" />
+        <activity
+            android:name=".notification"
+            android:exported="false" />
+        <activity
+            android:name=".moneydetails"
+            android:exported="false" />
+        <activity
+            android:name=".aboutyou"
+            android:exported="false" />
+        <activity
+            android:name=".contactus"
+            android:exported="false" />
+        <activity
+            android:name=".aboutdeveloper"
+            android:exported="false" />
+        <activity
+            android:name=".ratinglist"
+            android:exported="false" />
+        <activity
+            android:name=".userslistadmin"
+            android:exported="false" />
+        <activity
+            android:name=".adminlogin"
+            android:exported="false" />
+        <activity
+            android:name=".admin"
+            android:exported="false" />
+        <activity
+            android:name=".attendencedetails"
+            android:exported="false" />
+        <activity
+            android:name=".showemployee"
+            android:exported="false" />
+        <activity
+            android:name=".markattendence"
+            android:exported="false" />
+        <activity
+            android:name=".paymoney"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false"
+            android:label="Markit"
+            android:theme="@style/Theme.Markit" />
+        <activity
+            android:name=".Registeremployee"
+            android:exported="false" />
+        <activity
+            android:name=".Rateus"
+            android:exported="false" />
+        <activity
+            android:name=".home"
+            android:exported="false" />
+        <activity
+            android:name=".Registercompany"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".forattendence"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222831"
+    tools:context=".Registeremployee">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Employee Details"
+        android:textColor="#EEEEEE"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.507" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00ADB5"
+        android:orientation="vertical"
+        android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="155dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/name"
+                android:textColor="#393E46"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/nameentry"
+                android:layout_width="273dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40sp"
+                android:layout_weight="1"
+                android:contentDescription="@string/name"
+                android:ems="10"
+                android:hint="Emplopyee Name"
+                android:inputType="textEmailAddress"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#EEEEEE"
+                android:visibility="visible"
+                tools:ignore="EditableContentDescCheck" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/cname"
+                android:layout_width="155dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="User Name"
+                android:textColor="#393E46"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/cnameentry"
+                android:layout_width="273dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40sp"
+                android:layout_weight="1"
+                android:contentDescription="@string/name"
+                android:ems="10"
+                android:hint="userName"
+                android:inputType="textEmailAddress"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#EEEEEE"
+                android:visibility="visible"
+                tools:ignore="EditableContentDescCheck" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="155dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/email"
+                android:textColor="#393E46"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/emailentry"
+                android:layout_width="273dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40sp"
+                android:layout_weight="1"
+                android:contentDescription="@string/email"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textPersonName"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#EEEEEE"
+                android:visibility="visible"
+                tools:ignore="EditableContentDescCheck" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/mobile"
+                android:layout_width="174dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/mobile"
+                android:textColor="#393E46"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/mobileentry"
+                android:layout_width="277dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25sp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="10 digit number"
+                android:inputType="phone"
+                android:textColor="#EEEEEE"
+                tools:ignore="TouchTargetSizeCheck" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/needs"
+                android:layout_width="155dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Count"
+                android:textColor="#393E46"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/needsentry"
+                android:layout_width="273dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40sp"
+                android:layout_weight="1"
+                android:contentDescription="@string/email"
+                android:ems="10"
+                android:hint="Set initial value 0"
+                android:inputType="textPersonName"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#393E46"
+                android:visibility="visible"
+                tools:ignore="EditableContentDescCheck" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/money"
+                android:layout_width="174dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Salary"
+                android:textColor="#393E46"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/moneyentry"
+                android:layout_width="277dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25sp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Salary PER day"
+                android:inputType="phone"
+                android:textColor="#EEEEEE"
+                tools:ignore="TouchTargetSizeCheck" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/workingg"
+                android:layout_width="174dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Working Hour's"
+                android:textColor="#393E46"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/working"
+                android:layout_width="277dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25sp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Working Hour's"
+                android:inputType="phone"
+                android:textColor="#EEEEEE"
+                tools:ignore="TouchTargetSizeCheck" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/pass"
+                android:layout_width="149dp"
+                android:layout_height="32dp"
+                android:layout_weight="1"
+                android:text="@string/class_"
+                android:textColor="#393E46"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:textColor="#EEEEEE" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submitbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFF5"
+        android:text="Submit"
+        android:textColor="#393E46"
+        app:cornerRadius="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.349" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
